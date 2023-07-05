@@ -163,5 +163,5 @@ function updateScore() {
 function updateTime() {
   var timeElement = document.getElementById("time");
   var currentTime = Math.floor((Date.now() - startTime) / 1000);
-  timeElement.textContent = currentTime.toString();
+  timeElement.textContent = currentTime.toString() + " segundos";
 }
